@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import type { AppState, TagId } from '../types';
 import { loadBookmarks, saveBookmarks, toggleBookmark as toggleBookmarkUtil } from '../utils/bookmarks';
-import { geocodeLocation } from '../utils/geo';
+import { geocodeLocation, reverseGeocode } from '../utils/geo';
 
 const initialState: AppState = {
   activeTags: new Set(),
@@ -20,6 +20,21 @@ const initialState: AppState = {
 export function useAppState() {
   const [state, setState] = useState<AppState>(initialState);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // Request browser geolocation on mount
+  useEffect(() => {
+    if (!navigator.geolocation) return;
+    navigator.geolocation.getCurrentPosition(async (position) => {
+      const { latitude, longitude } = position.coords;
+      const label = await reverseGeocode(latitude, longitude);
+      setState(prev => ({
+        ...prev,
+        userLat: latitude,
+        userLng: longitude,
+        locationQuery: label ?? `${latitude.toFixed(4)}, ${longitude.toFixed(4)}`,
+      }));
+    });
+  }, []);
 
   const toggleTag = (tag: TagId) => {
     setState(prev => {

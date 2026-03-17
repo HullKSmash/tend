@@ -1,3 +1,18 @@
+export async function reverseGeocode(lat: number, lng: number): Promise<string | null> {
+  try {
+    const url = `https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lng}`;
+    const response = await fetch(url, { headers: { 'Accept-Language': 'en' } });
+    if (!response.ok) return null;
+    const result = await response.json();
+    const city = result.address?.city || result.address?.town || result.address?.village;
+    const state = result.address?.state;
+    if (city && state) return `${city}, ${state}`;
+    return null;
+  } catch {
+    return null;
+  }
+}
+
 export async function geocodeLocation(query: string): Promise<{ lat: number; lng: number } | null> {
   if (!query.trim()) return null;
   try {
