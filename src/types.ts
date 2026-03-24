@@ -1,6 +1,6 @@
 export type CommitmentType = 'one-time' | 'weekly' | 'monthly' | 'flexible';
 export type DaysType = 'weekdays' | 'weekends' | 'either';
-export type TagId = 'nature' | 'animals' | 'kids' | 'food' | 'seniors' | 'arts' | 'housing' | 'health' | 'cleanup' | 'civic';
+export type TagId = 'trails' | 'habitat' | 'cleanup' | 'wildlife' | 'water' | 'education';
 
 export interface Category {
   id: TagId;
@@ -28,6 +28,8 @@ export interface Opportunity {
   contactEmail: string;
   contactPhone: string;
   nextSteps: string;
+  website?: string;
+  eventDate?: string; // for one-time opportunities, e.g. "April 12, 2026"
   distance?: number;
 }
 

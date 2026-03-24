@@ -20,7 +20,7 @@ export async function geocodeLocation(query: string): Promise<{ lat: number; lng
     const response = await fetch(url, {
       headers: {
         'Accept-Language': 'en',
-        'User-Agent': 'Goti-VolunteerFinder/1.0',
+        'User-Agent': 'Tend-VolunteerFinder/1.0',
       },
     });
     if (!response.ok) return null;

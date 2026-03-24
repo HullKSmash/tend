@@ -9,6 +9,7 @@ import ResultsBar from './components/ResultsBar';
 import OpportunityCard from './components/OpportunityCard';
 import EmptyState from './components/EmptyState';
 import Footer from './components/Footer';
+import DetailDrawer from './components/DetailDrawer';
 import './App.css';
 
 export default function App() {
@@ -66,6 +67,12 @@ export default function App() {
         </main>
       </div>
       <Footer />
+      <DetailDrawer
+        opportunity={filtered.find(o => o.id === state.expandedId) ?? null}
+        isBookmarked={state.expandedId ? state.bookmarks.has(state.expandedId) : false}
+        onToggleBookmark={() => state.expandedId && actions.toggleBookmark(state.expandedId)}
+        onClose={() => state.expandedId && actions.toggleExpanded(state.expandedId)}
+      />
     </div>
   );
 }

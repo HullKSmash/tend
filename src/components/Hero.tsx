@@ -8,9 +8,9 @@ export default function Hero({ totalOpps, totalOrgs, savedCount }: HeroProps) {
   return (
     <section className="hero">
       <div className="hero-inner">
-        <h1 className="hero-heading">Find volunteer work<br />you'll love</h1>
+        <h1 className="hero-heading">Tend</h1>
         <p className="hero-subhead">
-          Browse local opportunities by interest, schedule, and location — no account required.
+          Find local volunteer opportunities tailored to you.
         </p>
         <div className="hero-stats">
           <div className="hero-stat">

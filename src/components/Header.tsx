@@ -7,8 +7,8 @@ export default function Header({ bookmarkCount }: HeaderProps) {
     <header className="header">
       <div className="header-inner">
         <div className="header-brand">
-          <span className="header-logo">Goti</span>
-          <span className="header-tagline">Find volunteer work you'll love</span>
+          <span className="header-logo">Tend</span>
+          <span className="header-tagline">Give back to the places you love</span>
         </div>
         {bookmarkCount > 0 && (
           <div className="header-bookmarks">

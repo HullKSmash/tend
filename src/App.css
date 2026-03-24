@@ -8,16 +8,12 @@
   --text: #1a1a2e;
   --muted: #6b7280;
   --border: #e5e0d8;
-  --tag-nature: #22c55e;
-  --tag-animals: #f97316;
-  --tag-kids: #ec4899;
-  --tag-food: #ef4444;
-  --tag-seniors: #a855f7;
-  --tag-arts: #3b82f6;
-  --tag-housing: #06b6d4;
-  --tag-health: #14b8a6;
+  --tag-trails: #22c55e;
+  --tag-habitat: #15803d;
   --tag-cleanup: #84cc16;
-  --tag-civic: #f59e0b;
+  --tag-wildlife: #f97316;
+  --tag-water: #3b82f6;
+  --tag-education: #a855f7;
   --font-display: 'Fraunces', Georgia, serif;
   --font-body: 'Nunito', system-ui, sans-serif;
   --radius-sm: 8px;
@@ -396,9 +392,13 @@
   box-shadow: var(--shadow-sm);
   border-top: 4px solid var(--accent, var(--tag-community));
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  display: flex;
-  flex-direction: column;
   overflow: hidden;
+  /* Subgrid: 5 rows — header, tags, duration, description, actions */
+  display: grid;
+  grid-row: span 5;
+  grid-template-rows: subgrid;
+  padding: 1.25rem;
+  gap: 0.75rem;
 }
 
 .card:hover {
@@ -408,14 +408,6 @@
 
 .card.is-bookmarked {
   box-shadow: 0 0 0 2px var(--accent, var(--tag-community)), var(--shadow-sm);
-}
-
-.card-summary {
-  padding: 1.25rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  flex: 1;
 }
 
 /* Card header row */
@@ -533,7 +525,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: auto;
+  align-self: end;
   padding-top: 0.5rem;
   border-top: 1px solid var(--border);
 }
@@ -599,14 +591,150 @@
 /* =============================================
    CARD DETAIL PANEL
    ============================================= */
-.card-detail {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.35s ease;
+.card.is-expanded {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px var(--accent), var(--shadow-sm);
 }
 
-.is-expanded .card-detail {
-  max-height: 700px;
+/* =============================================
+   DETAIL DRAWER
+   ============================================= */
+.drawer-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 31, 61, 0.4);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+  z-index: 100;
+}
+
+.drawer-backdrop.is-open {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: min(480px, 100vw);
+  background: var(--surface);
+  border-left: 4px solid var(--accent);
+  box-shadow: var(--shadow-lg);
+  display: flex;
+  flex-direction: column;
+  transform: translateX(100%);
+  transition: transform 0.3s cubic-bezier(0.32, 0.72, 0, 1);
+  z-index: 101;
+  overflow: hidden;
+}
+
+.drawer.is-open {
+  transform: translateX(0);
+}
+
+.drawer-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 1.25rem;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.drawer-close-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  color: var(--muted);
+  padding: 0.25rem;
+  line-height: 1;
+  flex-shrink: 0;
+  margin-right: 0.25rem;
+}
+
+.drawer-close-btn:hover {
+  color: var(--text);
+}
+
+.drawer-org-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.drawer-title-block {
+  flex: 1;
+  min-width: 0;
+}
+
+.drawer-title {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.3;
+}
+
+.drawer-org {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 0.2rem;
+}
+
+.drawer-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.drawer-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: center;
+}
+
+.next-steps-box {
+  background: var(--bg);
+  border-radius: var(--radius-sm);
+  padding: 1rem;
+}
+
+.org-website-link {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.org-website-link:hover {
+  text-decoration: underline;
+}
+
+.next-steps-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
 }
 
 .card-detail-inner {
