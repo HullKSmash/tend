@@ -1,2 +1,2 @@
-# goti
-Get off the internet!
+# Tend
+Give back to the places you love.

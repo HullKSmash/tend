@@ -1,4 +1,4 @@
-const KEY = 'goti-bookmarks';
+const KEY = 'tend-bookmarks';
 
 export function loadBookmarks(): Set<string> {
   try {
