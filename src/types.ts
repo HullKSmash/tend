@@ -35,7 +35,7 @@ export interface Opportunity {
 
 export interface AppState {
   activeTags: Set<TagId>;
-  commitment: 'any' | CommitmentType;
+  commitment: 'any' | 'recurring' | CommitmentType;
   days: 'any' | DaysType;
   userLat: number | null;
   userLng: number | null;

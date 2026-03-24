@@ -47,9 +47,7 @@ export default function FilterSidebar({
         >
           <option value="any">Any commitment</option>
           <option value="one-time">One-time</option>
-          <option value="weekly">Weekly</option>
-          <option value="monthly">Monthly</option>
-          <option value="flexible">Flexible</option>
+          <option value="recurring">Recurring</option>
         </select>
       </div>
 
@@ -63,7 +61,6 @@ export default function FilterSidebar({
           <option value="any">Any days</option>
           <option value="weekdays">Weekdays</option>
           <option value="weekends">Weekends</option>
-          <option value="either">Either / flexible</option>
         </select>
       </div>
 

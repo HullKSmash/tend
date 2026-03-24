@@ -23,7 +23,9 @@ export function applyFilters(opportunities: Opportunity[], state: AppState): Opp
   }
 
   // 2. Commitment filter
-  if (state.commitment !== 'any') {
+  if (state.commitment === 'recurring') {
+    results = results.filter(o => o.commitment === 'weekly' || o.commitment === 'monthly');
+  } else if (state.commitment !== 'any') {
     results = results.filter(o => o.commitment === state.commitment);
   }
 
