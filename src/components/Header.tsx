@@ -7,7 +7,7 @@ export default function Header({ bookmarkCount }: HeaderProps) {
     <header className="header">
       <div className="header-inner">
         <div className="header-brand">
-          <span className="header-logo">Tend</span>
+          <img className="header-logo" src="/tend-icon.png" alt="Tend" />
           <span className="header-tagline">Give back to the places you love</span>
         </div>
         {bookmarkCount > 0 && (
