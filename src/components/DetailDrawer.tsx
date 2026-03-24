@@ -117,13 +117,6 @@ export default function DetailDrawer({ opportunity, isBookmarked, onToggleBookma
                 <span className="detail-value">{opportunity.duration}</span>
               </div>
 
-              <div className="contact-box">
-                <p className="contact-name">{opportunity.contactName}</p>
-                <p className="contact-role">{opportunity.contactRole}</p>
-                <a className="contact-link" href={`mailto:${opportunity.contactEmail}`}>{opportunity.contactEmail}</a>
-                <a className="contact-link" href={`tel:${opportunity.contactPhone}`}>{opportunity.contactPhone}</a>
-              </div>
-
               <div className="next-steps-box">
                 <p className="next-steps-label">How to get started</p>
                 <p className="next-steps">{opportunity.nextSteps}</p>
@@ -139,12 +132,16 @@ export default function DetailDrawer({ opportunity, isBookmarked, onToggleBookma
                 )}
               </div>
 
-              <a
-                className="signup-btn"
-                href={`mailto:${opportunity.contactEmail}?subject=Volunteer Interest: ${encodeURIComponent(opportunity.title)}`}
-              >
-                Sign Up
-              </a>
+              {opportunity.website && (
+                <a
+                  className="signup-btn"
+                  href={opportunity.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Learn More
+                </a>
+              )}
             </div>
           </>
         )}

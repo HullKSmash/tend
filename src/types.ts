@@ -23,13 +23,9 @@ export interface Opportunity {
   duration: string;
   description: string;
   fullDescription: string;
-  contactName: string;
-  contactRole: string;
-  contactEmail: string;
-  contactPhone: string;
   nextSteps: string;
   website?: string;
-  eventDate?: string; // for one-time opportunities, e.g. "April 12, 2026"
+  eventDate?: string;
   distance?: number;
 }
 
