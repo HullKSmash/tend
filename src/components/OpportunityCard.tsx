@@ -17,11 +17,6 @@ const COMMITMENT_LABELS: Record<string, string> = {
   'flexible': 'Flexible',
 };
 
-const DAYS_LABELS: Record<string, string> = {
-  'weekdays': 'Weekdays',
-  'weekends': 'Weekends',
-  'either': 'Flexible',
-};
 
 function getTagColor(tagId: string): string {
   const cat = CATEGORIES.find(c => c.id === tagId);
