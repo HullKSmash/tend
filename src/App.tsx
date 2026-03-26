@@ -1,7 +1,8 @@
-import { useMemo } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { useAppState } from './hooks/useAppState';
 import { applyFilters } from './utils/filters';
-import { OPPORTUNITIES, CATEGORIES } from './data';
+import { CATEGORIES } from './data';
+import type { Opportunity } from './types';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import FilterSidebar from './components/FilterSidebar';
@@ -14,21 +15,29 @@ import './App.css';
 
 export default function App() {
   const { state, ...actions } = useAppState();
+  const [opportunities, setOpportunities] = useState<Opportunity[]>([]);
+
+  useEffect(() => {
+    fetch('/data.json')
+      .then(res => res.json())
+      .then(setOpportunities)
+      .catch(err => console.error('Failed to load opportunities:', err));
+  }, []);
 
   const filtered = useMemo(() => {
-    let results = applyFilters(OPPORTUNITIES, state);
+    let results = applyFilters(opportunities, state);
     if (state.showBookmarksOnly) {
       results = results.filter(o => state.bookmarks.has(o.id));
     }
     return results;
-  }, [state]);
+  }, [opportunities, state]);
 
   return (
     <div className="app">
       <Header bookmarkCount={state.bookmarks.size} />
       <Hero
-        totalOpps={OPPORTUNITIES.length}
-        totalOrgs={new Set(OPPORTUNITIES.map(o => o.org)).size}
+        totalOpps={opportunities.length}
+        totalOrgs={new Set(opportunities.map(o => o.org)).size}
         savedCount={state.bookmarks.size}
       />
       <div className="page-body">
