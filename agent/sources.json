@@ -1,0 +1,14 @@
+[
+  { "org": "Bay Area Ridge Trail Council", "url": "https://ridgetrail.org/volunteer-2/", "defaultTags": ["trails"] },
+  { "org": "East Bay Regional Park District", "url": "https://www.ebparks.org/volunteer", "defaultTags": ["trails", "habitat"] },
+  { "org": "Golden Gate Bird Alliance", "url": "https://goldengatebirdalliance.org/volunteer/", "defaultTags": ["wildlife", "habitat"] },
+  { "org": "Golden Gate National Parks Conservancy", "url": "https://www.parksconservancy.org/volunteer/community-volunteer-programs", "defaultTags": ["habitat", "trails"] },
+  { "org": "Grassroots Ecology", "url": "https://www.grassrootsecology.org/calendar", "defaultTags": ["habitat", "education"] },
+  { "org": "Marin County Open Space District", "url": "https://www.parks.marincounty.gov/discoverlearn/volunteer", "defaultTags": ["trails", "habitat"] },
+  { "org": "One Tam / Tamalpais Lands Collaborative", "url": "https://www.onetam.org/volunteer", "defaultTags": ["habitat", "trails"] },
+  { "org": "Peninsula Open Space Trust", "url": "https://openspacetrust.org/volunteer/", "defaultTags": ["habitat", "trails"] },
+  { "org": "SF Rec & Parks", "url": "https://sfrecpark.org/780/Volunteer-Programs", "defaultTags": ["trails", "habitat"] },
+  { "org": "Save the Bay", "url": "https://savesfbay.org/calendar/", "defaultTags": ["habitat", "water"] },
+  { "org": "Surfrider Foundation SF Chapter", "url": "https://sf.surfrider.org/programs/beach-cleanups", "defaultTags": ["cleanup", "water"] },
+  { "org": "The Marine Mammal Center", "url": "https://www.marinemammalcenter.org/get-involved/volunteer/sausalito", "defaultTags": ["wildlife"] }
+]
