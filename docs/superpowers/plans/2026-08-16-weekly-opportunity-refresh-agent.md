@@ -579,8 +579,10 @@ fields (e.g. `distance` is runtime-only). Allowed values:
 7. **Assign ids.** New entries get sequential `opp-NNN` ids continuing from the
    current maximum (zero-padded to at least 3 digits).
 8. **Validate before proposing.** Write the updated `public/data.json`, then run
-   `npm run validate` and `npm run build`. If either fails, fix the data or
-   abort — never open a PR with a failing validate or build.
+   `npm run validate` — the hard gate; abort/fix if it fails. Then run
+   `npm run build` for signal only (it does not compile the static
+   `public/data.json`); a build failure is recorded under "Build warning" in the
+   PR body and does not block the PR.
 9. **Open the PR.** Create a branch `refresh/YYYY-MM-DD`, commit, and open a PR
    against `main` titled `Refresh volunteer data — <Month D, YYYY>`. Never merge
    it yourself.
@@ -642,10 +644,17 @@ Expected: `OK public/data.json (22 opportunities)` and `OK agent/sources.json (1
 Run: `npm test`
 Expected: all `scripts/` tests pass (validate logic, sources, CLI).
 
-- [ ] **Step 3: Confirm the app still builds and lints**
+- [ ] **Step 3: Confirm this plan did not affect the app**
 
-Run: `npm run build && npm run lint`
-Expected: both succeed — this plan added only `.mjs`/`.json`/`.md` files outside the TypeScript/ESLint surface, so the app is unaffected.
+This plan adds only `.mjs`/`.json`/`.md` files outside the TypeScript/ESLint
+surface, so it cannot change the app's build or lint result. Note: on this
+machine `npm run build` fails from a pre-existing broken `rolldown` native
+binding in `node_modules`, and `npm run lint` reports a pre-existing
+`react-hooks/set-state-in-effect` error in `src/hooks/useAppState.ts:93` — both
+predate this branch and are unrelated. Verify our tooling instead:
+
+Run: `npm run validate && npm test`
+Expected: validate prints the two `OK` lines and the suite passes 16/16.
 
 - [ ] **Step 4: Confirm no unintended changes to app data**
 

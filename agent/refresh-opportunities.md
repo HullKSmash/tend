@@ -52,8 +52,11 @@ fields (e.g. `distance` is runtime-only). Allowed values:
 7. **Assign ids.** New entries get sequential `opp-NNN` ids continuing from the
    current maximum (zero-padded to at least 3 digits).
 8. **Validate before proposing.** Write the updated `public/data.json`, then run
-   `npm run validate` and `npm run build`. If either fails, fix the data or
-   abort — never open a PR with a failing validate or build.
+   `npm run validate` — this is the hard gate. If it fails, fix the data or
+   abort; never open a PR with a failing validate. Then run `npm run build` for
+   signal only: it does **not** compile `public/data.json` (a static asset), so a
+   build failure does not block the PR. If the build fails, record it under
+   "Build warning" in the PR body and continue.
 9. **Open the PR.** Create a branch `refresh/YYYY-MM-DD`, commit, and open a PR
    against `main` titled `Refresh volunteer data — <Month D, YYYY>`. Never merge
    it yourself.
@@ -83,6 +86,9 @@ this to exercise the pipeline against the live source pages without side effects
 
 ### Sources skipped (N)
 - <org> — <url> — <reason>
+
+### Build warning
+- <npm run build failed | None>
 ````
 
 If a section is empty, write "None".
