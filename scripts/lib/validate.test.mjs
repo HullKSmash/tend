@@ -67,6 +67,12 @@ test('validateData rejects out-of-bounds coordinates', () => {
   assert.ok(errors.some(e => e.includes('out of bounds')));
 });
 
+test('validateData rejects a non-number coordinate distinctly from out-of-bounds', () => {
+  const { valid, errors } = validateData([{ ...goodEntry, lat: '37.76' }]);
+  assert.equal(valid, false);
+  assert.ok(errors.some(e => e.includes('lat must be a number')));
+});
+
 test('validateData rejects an unknown key (e.g. leaked distance)', () => {
   const { valid, errors } = validateData([{ ...goodEntry, distance: 3 }]);
   assert.equal(valid, false);

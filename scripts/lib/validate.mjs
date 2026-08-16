@@ -87,13 +87,17 @@ export function validateData(data) {
 
     if ('lat' in entry) {
       const v = entry.lat;
-      if (typeof v !== 'number' || Number.isNaN(v) || v < LAT_BOUNDS[0] || v > LAT_BOUNDS[1]) {
+      if (typeof v !== 'number' || Number.isNaN(v)) {
+        errors.push(`${where}: lat must be a number, got ${JSON.stringify(v)}`);
+      } else if (v < LAT_BOUNDS[0] || v > LAT_BOUNDS[1]) {
         errors.push(`${where}: lat ${v} out of bounds ${LAT_BOUNDS.join('..')}`);
       }
     }
     if ('lng' in entry) {
       const v = entry.lng;
-      if (typeof v !== 'number' || Number.isNaN(v) || v < LNG_BOUNDS[0] || v > LNG_BOUNDS[1]) {
+      if (typeof v !== 'number' || Number.isNaN(v)) {
+        errors.push(`${where}: lng must be a number, got ${JSON.stringify(v)}`);
+      } else if (v < LNG_BOUNDS[0] || v > LNG_BOUNDS[1]) {
         errors.push(`${where}: lng ${v} out of bounds ${LNG_BOUNDS.join('..')}`);
       }
     }
