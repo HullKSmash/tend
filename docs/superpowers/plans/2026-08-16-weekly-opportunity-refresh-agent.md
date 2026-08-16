@@ -480,9 +480,14 @@ In `package.json`, replace the `"scripts"` block with:
     "lint": "eslint .",
     "preview": "vite preview",
     "validate": "node scripts/validate-data.mjs",
-    "test": "node --test scripts/"
+    "test": "node --test 'scripts/**/*.test.mjs'"
   },
 ```
+
+> Note: `node --test scripts/` (a bare directory arg) does not work in this Node
+> build — it tries to load `scripts` as a module. The quoted glob
+> `'scripts/**/*.test.mjs'` is passed literally to node, which expands it and
+> discovers all test files. Verified to run all tests green.
 
 - [ ] **Step 5: Run the tests to verify they pass**
 
