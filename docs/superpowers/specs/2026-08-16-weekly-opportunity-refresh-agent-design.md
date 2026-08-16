@@ -119,8 +119,10 @@ Exit non-zero on any failure so the run aborts before opening a PR.
 6. **Assign IDs.** New entries get sequential `opp-NNN` ids continuing from the
    current maximum.
 7. **Validate.** Write the updated `public/data.json`, then run
-   `node scripts/validate-data.mjs` and `npm run build`. If either fails, fix or
-   abort — do not open a PR with a failing build.
+   `node scripts/validate-data.mjs` (the hard gate) — if it fails, fix or abort.
+   Also run `npm run build` for signal only; it does not compile the static
+   `public/data.json`, so a build failure is noted in the PR body but does not
+   block the PR.
 8. **Open PR.** Title includes the run date. Body contains a summary table with
    three sections — **Added**, **Pruned (flagged)**, **New-location coordinates
    (flagged)** — each row linking the source URL it came from.
@@ -129,7 +131,8 @@ Exit non-zero on any failure so the run aborts before opening a PR.
 
 - Curated sources only; no open web search.
 - New coordinates and dead-link prunes are **flagged**, never silently trusted.
-- The PR never auto-merges, and the build must pass before the PR is opened.
+- The PR never auto-merges; `validate` must pass before the PR is opened (the
+  build is a non-blocking signal).
 - Behavior changes flow through git (the runbook and source list are files).
 
 ## Data Flow

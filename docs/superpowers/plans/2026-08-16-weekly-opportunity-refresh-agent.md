@@ -619,7 +619,7 @@ If a section is empty, write "None".
 
 - [ ] **Step 2: Self-review the runbook**
 
-Confirm the runbook: (a) names only the six tags and Bay Area scope; (b) covers all 8 procedure steps plus PR creation; (c) states coordinates are reused when possible and flagged when geocoded; (d) forbids self-merge; (e) requires `npm run validate` + `npm run build` before opening a PR. Fix any gap inline.
+Confirm the runbook: (a) names only the six tags and Bay Area scope; (b) covers all 8 procedure steps plus PR creation; (c) states coordinates are reused when possible and flagged when geocoded; (d) forbids self-merge; (e) requires `npm run validate` before opening a PR (the hard gate), with `npm run build` run as a non-blocking signal. Fix any gap inline.
 
 - [ ] **Step 3: Commit**
 
