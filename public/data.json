@@ -373,4 +373,171 @@
     "website": "https://sfrecpark.org/780/Volunteer-Programs",
     "eventDate": "April 18, 2026"
   }
+,
+  {
+    "id": "opp-027",
+    "title": "Alcatraz Historic Gardens",
+    "org": "Golden Gate National Parks Conservancy",
+    "tags": [
+      "habitat"
+    ],
+    "commitment": "weekly",
+    "days": "weekdays",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip": "94133",
+    "lat": 37.8267,
+    "lng": -122.4228,
+    "duration": "4 hrs/week",
+    "description": "Help restore the historic terraced gardens once tended by military families and penitentiary residents on Alcatraz Island, working alongside National Park Service and Conservancy garden staff.",
+    "fullDescription": "Long before Alcatraz became a federal prison, it was home to gardens planted by military families and later maintained by inmates and their guards. Today, Golden Gate National Parks Conservancy volunteers help restore these historic terraced gardens, removing weeds, deadheading roses, and replanting heirloom varieties documented in historic photographs. Sessions run Wednesday and Thursday mornings and include the ferry ride to the island as part of the experience. All tools and gloves are provided; wear layered clothing and sturdy shoes for the uneven terrain.",
+    "nextSteps": "Register for a Wednesday or Thursday session at parksconservancy.org/volunteer/community-volunteer-programs. Ferry transportation from Pier 33 is arranged for registered garden volunteers.",
+    "website": "https://www.parksconservancy.org/volunteer/community-volunteer-programs"
+  },
+  {
+    "id": "opp-028",
+    "title": "Sutro Heights Historic Landscaping and Maintenance",
+    "org": "Golden Gate National Parks Conservancy",
+    "tags": [
+      "habitat"
+    ],
+    "commitment": "monthly",
+    "days": "weekdays",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip": "94121",
+    "lat": 37.7775,
+    "lng": -122.511,
+    "duration": "3 hrs/month",
+    "description": "Help maintain the historic landscaping and cultural resources at Sutro Heights Park, the clifftop remains of Adolph Sutro's 19th-century estate overlooking Ocean Beach.",
+    "fullDescription": "Sutro Heights Park preserves the terraces, statuary, and gardens of Adolph Sutro's former clifftop estate above the Cliff House and Ocean Beach. Golden Gate National Parks Conservancy volunteers gather on the first and third Wednesday of each month to weed historic planting beds, prune hedges, and maintain pathways while learning about the park's Gilded Age history. No experience necessary \u2014 tools, gloves, and training are provided on site.",
+    "nextSteps": "Register for an upcoming session at parksconservancy.org/volunteer/community-volunteer-programs. Sessions run 9am\u2013noon on the 1st and 3rd Wednesday of the month.",
+    "website": "https://www.parksconservancy.org/volunteer/community-volunteer-programs"
+  },
+  {
+    "id": "opp-029",
+    "title": "Presidio Tunnel Tops Stewards",
+    "org": "Golden Gate National Parks Conservancy",
+    "tags": [
+      "habitat"
+    ],
+    "commitment": "monthly",
+    "days": "weekdays",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip": "94129",
+    "lat": 37.799,
+    "lng": -122.4662,
+    "duration": "2.5 hrs/month",
+    "description": "Care for the native plant landscaping at Presidio Tunnel Tops, the park built over Doyle Drive connecting the Presidio to Crissy Field and the Golden Gate.",
+    "fullDescription": "Presidio Tunnel Tops opened in 2022 as a 14-acre park connecting the main Presidio to Crissy Field, planted with native coastal scrub and grassland species. Golden Gate National Parks Conservancy stewardship volunteers help this young landscape establish by weeding, watering, and mulching planting beds during the April\u2013September growing season. Sessions are held on the 2nd Tuesday, 4th Wednesday, and last Tuesday of each month. Tools and gloves provided \u2014 a great option for volunteers who want a shorter, family-friendly outdoor commitment with sweeping bay views.",
+    "nextSteps": "Register at parksconservancy.org/volunteer/community-volunteer-programs. Program runs seasonally April through September.",
+    "website": "https://www.parksconservancy.org/volunteer/community-volunteer-programs"
+  },
+  {
+    "id": "opp-030",
+    "title": "Ocean Beach Clean-ups",
+    "org": "Golden Gate National Parks Conservancy",
+    "tags": [
+      "cleanup",
+      "habitat"
+    ],
+    "commitment": "monthly",
+    "days": "weekends",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip": "94122",
+    "lat": 37.759,
+    "lng": -122.5107,
+    "duration": "3 hrs/month",
+    "description": "Join Golden Gate National Parks Conservancy's monthly clean-up to help keep Ocean Beach free of trash and marine debris.",
+    "fullDescription": "Golden Gate National Parks Conservancy runs a monthly volunteer clean-up along Ocean Beach, one of the most heavily used stretches of national parkland shoreline in San Francisco. Volunteers walk assigned sections of beach collecting trash, cigarette butts, and washed-up debris using supplied buckets, gloves, and grabbers. Clean-ups meet on the first Saturday of the month; no registration or experience required, just show up ready to work outdoors.",
+    "nextSteps": "Show up the first Saturday of the month, 10am\u20131pm. Check parksconservancy.org/volunteer/community-volunteer-programs for the meeting location, which varies along the beach.",
+    "website": "https://www.parksconservancy.org/volunteer/community-volunteer-programs"
+  },
+  {
+    "id": "opp-031",
+    "title": "Tamalpais Bee Lab",
+    "org": "One Tam / Tamalpais Lands Collaborative",
+    "tags": [
+      "wildlife",
+      "education"
+    ],
+    "commitment": "flexible",
+    "days": "either",
+    "city": "Mill Valley",
+    "state": "CA",
+    "zip": "94941",
+    "lat": 37.906,
+    "lng": -122.545,
+    "duration": "3 hrs/event",
+    "description": "Assist One Tam's community science team surveying native bee populations across Mt. Tamalpais during the spring and summer flowering season.",
+    "fullDescription": "The Tamalpais Bee Lab is a community science project tracking native bee diversity and abundance across the Tamalpais watershed as part of One Tam's broader effort to understand how the mountain's ecosystems are changing. Volunteers help set up pan traps and vane traps, net and photograph bees in the field, and sort and pin specimens back in the lab for identification. No entomology background needed \u2014 training is provided at the start of each season. Events run through the spring and summer months and tend to fill up quickly.",
+    "nextSteps": "Email communityscience@onetam.org to join the volunteer list. Sign up early \u2014 sessions fill fast.",
+    "website": "https://www.onetam.org/volunteer"
+  },
+  {
+    "id": "opp-032",
+    "title": "Marin Wildlife Watch",
+    "org": "One Tam / Tamalpais Lands Collaborative",
+    "tags": [
+      "wildlife"
+    ],
+    "commitment": "flexible",
+    "days": "either",
+    "city": "Mill Valley",
+    "state": "CA",
+    "zip": "94941",
+    "lat": 37.906,
+    "lng": -122.545,
+    "duration": "Varies/cohort",
+    "description": "Help identify mammals captured on motion-activated wildlife cameras placed across Mt. Tamalpais as part of One Tam's long-term population monitoring.",
+    "fullDescription": "Marin Wildlife Watch uses a network of motion-activated cameras placed across the Tamalpais watershed to track populations of bobcats, coyotes, deer, and other mammals over time. Volunteers join a seasonal cohort and use an online platform to review camera trap images and identify the species captured, contributing to a long-running dataset used by park scientists to understand wildlife trends. Training on the identification platform is provided; most work can be done remotely between occasional in-person camera checks.",
+    "nextSteps": "Email communityscience@onetam.org to join the next fall/winter volunteer cohort.",
+    "website": "https://www.onetam.org/volunteer"
+  },
+  {
+    "id": "opp-033",
+    "title": "Coastal Cleanup Day \u2014 MLK Regional Shoreline",
+    "org": "Save the Bay",
+    "tags": [
+      "cleanup",
+      "water"
+    ],
+    "commitment": "one-time",
+    "days": "weekends",
+    "city": "Oakland",
+    "state": "CA",
+    "zip": "94605",
+    "lat": 37.7617,
+    "lng": -122.1558,
+    "duration": "3 hrs",
+    "description": "Join Save The Bay and thousands of volunteers statewide for California's Coastal Cleanup Day, removing trash from the shoreline at MLK Regional Shoreline in Oakland.",
+    "fullDescription": "Coastal Cleanup Day is California's largest volunteer event, bringing tens of thousands of people to shorelines statewide on a single September morning. Save The Bay hosts a cleanup at Martin Luther King Jr. Regional Shoreline in Oakland, where volunteers comb the marsh edges and trails for trash and plastic debris before it can wash into the Bay. Certified project leaders provide gloves, bags, and safety instruction; the event is family-friendly, though volunteers under 13 must be accompanied by a parent.",
+    "nextSteps": "Register at savesfbay.org/event/coastal-cleanup-day-at-mlk-regional-shoreline-oakland-1oapyaq/. Event runs 9am\u2013noon on Saturday, September 19, 2026.",
+    "website": "https://savesfbay.org/event/coastal-cleanup-day-at-mlk-regional-shoreline-oakland-1oapyaq/",
+    "eventDate": "September 19, 2026"
+  },
+  {
+    "id": "opp-034",
+    "title": "Habitat Restoration at Eden Landing",
+    "org": "Save the Bay",
+    "tags": [
+      "habitat",
+      "water"
+    ],
+    "commitment": "one-time",
+    "days": "weekends",
+    "city": "Hayward",
+    "state": "CA",
+    "zip": "94545",
+    "lat": 37.629,
+    "lng": -122.1176,
+    "duration": "3 hrs",
+    "description": "Help restore former industrial salt ponds into tidal marsh habitat at Eden Landing Ecological Reserve in Hayward, removing invasive mustard alongside Save The Bay's restoration team.",
+    "fullDescription": "Eden Landing Ecological Reserve is part of the South Bay Salt Pond Restoration Project, the largest tidal wetland restoration effort on the West Coast. Save The Bay volunteers help convert former commercial salt ponds back into functioning marsh by removing invasive mustard and other weeds and planting native marsh vegetation that will support shorebirds, fish, and endangered species like the salt marsh harvest mouse. Certified project leaders lead the workday and provide all tools, gloves, and safety training; no experience necessary.",
+    "nextSteps": "Register at savesfbay.org/event/habitat-restoration-at-eden-landing-hayward-1jxwyay/. Event runs 9am\u2013noon on Saturday, October 3, 2026.",
+    "website": "https://savesfbay.org/event/habitat-restoration-at-eden-landing-hayward-1jxwyay/",
+    "eventDate": "October 3, 2026"
+  }
 ]
