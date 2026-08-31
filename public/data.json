@@ -372,8 +372,7 @@
     "nextSteps": "Register at sfrecpark.org/volunteer. Workparties are held on the third Saturday of each month. Upcoming dates: April 18, May 16, and June 20, 2026.",
     "website": "https://sfrecpark.org/780/Volunteer-Programs",
     "eventDate": "April 18, 2026"
-  }
-,
+  },
   {
     "id": "opp-027",
     "title": "Alcatraz Historic Gardens",
@@ -539,5 +538,128 @@
     "nextSteps": "Register at savesfbay.org/event/habitat-restoration-at-eden-landing-hayward-1jxwyay/. Event runs 9am\u2013noon on Saturday, October 3, 2026.",
     "website": "https://savesfbay.org/event/habitat-restoration-at-eden-landing-hayward-1jxwyay/",
     "eventDate": "October 3, 2026"
+  },
+  {
+    "id": "opp-035",
+    "title": "Tennessee Valley Tuesday Stewards",
+    "org": "Golden Gate National Parks Conservancy",
+    "tags": [
+      "habitat"
+    ],
+    "commitment": "monthly",
+    "days": "weekdays",
+    "city": "Mill Valley",
+    "state": "CA",
+    "zip": "94941",
+    "lat": 37.906,
+    "lng": -122.545,
+    "duration": "4 hrs, 2x/month",
+    "description": "Get your hands dirty restoring and protecting native plant communities at Tennessee Valley, one of the Marin Headlands' most scenic canyons.",
+    "fullDescription": "Golden Gate National Parks Conservancy's Tennessee Valley Tuesday Stewards meet on the 3rd and 5th Tuesdays of the month from 10am to 2pm at rotating sites within Tennessee Valley. Work focuses on removing invasive weeds and restoring native plant communities along the valley's grasslands and creek corridor. Conservancy staff lead every session and provide tools, gloves, and plant ID guidance; no experience necessary.",
+    "nextSteps": "Register for an upcoming session at parksconservancy.org/volunteer/community-volunteer-programs. Sessions run 10am\u20132pm on the 3rd and 5th Tuesday of the month.",
+    "website": "https://www.parksconservancy.org/volunteer/community-volunteer-programs"
+  },
+  {
+    "id": "opp-036",
+    "title": "Presidio Forest Stewards",
+    "org": "Golden Gate National Parks Conservancy",
+    "tags": [
+      "habitat",
+      "trails"
+    ],
+    "commitment": "weekly",
+    "days": "weekdays",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip": "94129",
+    "lat": 37.799,
+    "lng": -122.4662,
+    "duration": "3 hrs/week",
+    "description": "Help tend the health of the Presidio's historic forests while repairing and maintaining the trails that run through them.",
+    "fullDescription": "The Presidio's forested ridgelines are a legacy of the Army's 19th-century tree-planting campaign, and today they need active stewardship to stay healthy. Golden Gate National Parks Conservancy's Presidio Forest Stewards meet Friday mornings from 9am to noon to thin overcrowded stands, clear deadfall, and repair trail tread and drainage through the forest. Tools and training provided on site; wear sturdy boots.",
+    "nextSteps": "Register for a Friday session at parksconservancy.org/volunteer/community-volunteer-programs.",
+    "website": "https://www.parksconservancy.org/volunteer/community-volunteer-programs"
+  },
+  {
+    "id": "opp-037",
+    "title": "Presidio Nursery",
+    "org": "Golden Gate National Parks Conservancy",
+    "tags": [
+      "habitat",
+      "education"
+    ],
+    "commitment": "flexible",
+    "days": "either",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip": "94129",
+    "lat": 37.799,
+    "lng": -122.4662,
+    "duration": "Half-day, weekly or monthly",
+    "description": "Learn to grow native plants from seed at the Presidio Nursery, which supplies the seedlings used in restoration projects across the park.",
+    "fullDescription": "The Presidio Nursery propagates thousands of native plants each year for restoration sites throughout the Presidio. Volunteers help with seed collection and cleaning, transplanting, watering, and general nursery upkeep. A weekly Wednesday shift is available for volunteers who want a regular commitment, and a drop-in open nursery day runs one Saturday a month for anyone who wants to try it without a standing commitment. No experience required \u2014 training happens on the job.",
+    "nextSteps": "Register at parksconservancy.org/volunteer/community-volunteer-programs and choose a Wednesday shift or the monthly open Saturday.",
+    "website": "https://www.parksconservancy.org/volunteer/community-volunteer-programs"
+  },
+  {
+    "id": "opp-038",
+    "title": "Black Point Historic Gardens",
+    "org": "Golden Gate National Parks Conservancy",
+    "tags": [
+      "habitat"
+    ],
+    "commitment": "weekly",
+    "days": "either",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip": "94123",
+    "lat": 37.8063,
+    "lng": -122.4289,
+    "duration": "3 hrs/week",
+    "description": "Help restore the long-neglected historic gardens of East Black Point at Fort Mason, once part of a 19th-century Army post's grounds.",
+    "fullDescription": "East Black Point's gardens, overlooking the Bay at Fort Mason, fell into disrepair for decades before Golden Gate National Parks Conservancy volunteers began restoring them. Sessions run Thursday afternoons (2\u20135pm), Friday mornings (9am\u2013noon), and the first Saturday of the month (10am\u20131pm), and involve weeding, pruning, and replanting historic garden beds. All tools and gloves provided.",
+    "nextSteps": "Register for a session at parksconservancy.org/volunteer/community-volunteer-programs.",
+    "website": "https://www.parksconservancy.org/volunteer/community-volunteer-programs"
+  },
+  {
+    "id": "opp-039",
+    "title": "Fort Mason Historic Landscaping and Maintenance",
+    "org": "Golden Gate National Parks Conservancy",
+    "tags": [
+      "habitat"
+    ],
+    "commitment": "weekly",
+    "days": "weekdays",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip": "94123",
+    "lat": 37.8063,
+    "lng": -122.4289,
+    "duration": "3 hrs/week",
+    "description": "Help maintain the historic landscapes and cultural resources of Upper Fort Mason, a former Army post overlooking San Francisco Bay.",
+    "fullDescription": "Golden Gate National Parks Conservancy volunteers gather Tuesday mornings from 9am to noon at Upper Fort Mason to weed planting beds, prune shrubs, and maintain pathways while learning about the site's military history. No experience necessary \u2014 tools, gloves, and training provided on site.",
+    "nextSteps": "Register for a Tuesday session at parksconservancy.org/volunteer/community-volunteer-programs.",
+    "website": "https://www.parksconservancy.org/volunteer/community-volunteer-programs"
+  },
+  {
+    "id": "opp-040",
+    "title": "Marin Headlands Nursery",
+    "org": "Golden Gate National Parks Conservancy",
+    "tags": [
+      "habitat",
+      "education"
+    ],
+    "commitment": "flexible",
+    "days": "either",
+    "city": "Sausalito",
+    "state": "CA",
+    "zip": "94965",
+    "lat": 37.8557,
+    "lng": -122.5337,
+    "duration": "Half-day, weekly or monthly",
+    "description": "Grow native plants from seed at the Marin Headlands Nursery to help preserve and restore the Headlands' coastal grasslands and scrub.",
+    "fullDescription": "The Marin Headlands Nursery grows the native plant stock used in restoration projects across the Headlands. Volunteers help with seed collection, transplanting, watering, and nursery upkeep. A weekly Wednesday shift suits volunteers who want a standing commitment; a drop-in open nursery day runs one Saturday a month for anyone who wants to try it first. No experience necessary.",
+    "nextSteps": "Register at parksconservancy.org/volunteer/community-volunteer-programs and choose a Wednesday shift or the monthly open Saturday.",
+    "website": "https://www.parksconservancy.org/volunteer/community-volunteer-programs"
   }
 ]
