@@ -661,5 +661,85 @@
     "fullDescription": "The Marin Headlands Nursery grows the native plant stock used in restoration projects across the Headlands. Volunteers help with seed collection, transplanting, watering, and nursery upkeep. A weekly Wednesday shift suits volunteers who want a standing commitment; a drop-in open nursery day runs one Saturday a month for anyone who wants to try it first. No experience necessary.",
     "nextSteps": "Register at parksconservancy.org/volunteer/community-volunteer-programs and choose a Wednesday shift or the monthly open Saturday.",
     "website": "https://www.parksconservancy.org/volunteer/community-volunteer-programs"
+  },
+  {
+    "id": "opp-041",
+    "title": "Habitat Restoration Team",
+    "org": "Golden Gate National Parks Conservancy",
+    "tags": [
+      "habitat"
+    ],
+    "commitment": "weekly",
+    "days": "weekends",
+    "city": "Sausalito",
+    "state": "CA",
+    "zip": "94965",
+    "lat": 37.8557,
+    "lng": -122.5337,
+    "duration": "5 hrs/week",
+    "description": "Help restore and monitor critical natural areas from the Marin Headlands to Bolinas Ridge, removing invasive plants and protecting sensitive habitat alongside Conservancy staff.",
+    "fullDescription": "Golden Gate National Parks Conservancy's Habitat Restoration Team tackles invasive weed removal, native plant establishment, and habitat monitoring across sites spanning the Marin Headlands to Bolinas Ridge. Crews meet Sunday mornings at rotating trailheads, working under the guidance of Conservancy restoration staff. No experience necessary — tools, gloves, and training are provided on site.",
+    "nextSteps": "Register for an upcoming Sunday session at parksconservancy.org/volunteer/community-volunteer-programs. Sessions run 9:30am–2:30pm.",
+    "website": "https://www.parksconservancy.org/volunteer/community-volunteer-programs"
+  },
+  {
+    "id": "opp-042",
+    "title": "Invasive Plant Patrol",
+    "org": "Golden Gate National Parks Conservancy",
+    "tags": [
+      "habitat"
+    ],
+    "commitment": "weekly",
+    "days": "weekdays",
+    "city": "Sausalito",
+    "state": "CA",
+    "zip": "94965",
+    "lat": 37.8557,
+    "lng": -122.5337,
+    "duration": "4.5 hrs/week",
+    "description": "Hike Marin's backcountry with a mission — help find and remove new infestations of invasive weeds before they can spread across the Headlands and beyond.",
+    "fullDescription": "The Invasive Plant Patrol combines hiking with early-detection weed control, searching remote corners of the Marin Headlands and surrounding open space for newly established invasive plants. Volunteers cover ground that scheduled restoration crews rarely reach, pulling small infestations before they take hold. Conservancy staff lead every outing and provide plant ID training, tools, and gloves. A good fit for volunteers who enjoy off-trail hiking as much as habitat work.",
+    "nextSteps": "Register for a Wednesday outing at parksconservancy.org/volunteer/community-volunteer-programs. Sessions run 10am–2:30pm.",
+    "website": "https://www.parksconservancy.org/volunteer/community-volunteer-programs"
+  },
+  {
+    "id": "opp-043",
+    "title": "San Francisco Habitat Stewards",
+    "org": "Golden Gate National Parks Conservancy",
+    "tags": [
+      "habitat"
+    ],
+    "commitment": "weekly",
+    "days": "weekdays",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip": "94129",
+    "lat": 37.799,
+    "lng": -122.4662,
+    "duration": "3 hrs/week",
+    "description": "Help restore and preserve the natural areas of Fort Funston, Lands End, and the Presidio, removing invasive plants and creating habitat corridors for coastal wildlife.",
+    "fullDescription": "Golden Gate National Parks Conservancy's San Francisco Habitat Stewards work across three of the city's wildest national park sites — Fort Funston, Lands End, and the Presidio — removing invasive species and restoring native coastal scrub and dune habitat. Sessions rotate between a Wednesday morning shift and a Thursday afternoon shift. Conservancy staff lead every outing; no experience necessary, and all tools and gloves are provided.",
+    "nextSteps": "Registration required — sign up at parksconservancy.org/volunteer/community-volunteer-programs. Sessions run Wednesdays 9am–Noon and Thursdays 1–4pm.",
+    "website": "https://www.parksconservancy.org/volunteer/community-volunteer-programs"
+  },
+  {
+    "id": "opp-044",
+    "title": "Golden Gate Historic Landscaping and Maintenance",
+    "org": "Golden Gate National Parks Conservancy",
+    "tags": [
+      "habitat"
+    ],
+    "commitment": "weekly",
+    "days": "weekdays",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip": "94129",
+    "lat": 37.799,
+    "lng": -122.4662,
+    "duration": "3 hrs/week",
+    "description": "Help protect and beautify the historic landscapes and cultural resources along the Golden Gate, from Lands End and Baker Beach to Crissy Field and Ocean Beach.",
+    "fullDescription": "This Golden Gate National Parks Conservancy program cares for the historic landscaping and cultural resources found across the park's western shoreline sites, including Lands End, Crissy Field, Baker Beach, and Ocean Beach. Thursday volunteer sessions rotate among these locations, focusing on weeding, pruning, and general landscape upkeep around historic structures and overlooks. Tools, gloves, and training provided; no experience necessary.",
+    "nextSteps": "Register for a Thursday session at parksconservancy.org/volunteer/community-volunteer-programs. Sessions run 10am–1pm.",
+    "website": "https://www.parksconservancy.org/volunteer/community-volunteer-programs"
   }
 ]
