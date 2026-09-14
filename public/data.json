@@ -741,5 +741,26 @@
     "fullDescription": "This Golden Gate National Parks Conservancy program cares for the historic landscaping and cultural resources found across the park's western shoreline sites, including Lands End, Crissy Field, Baker Beach, and Ocean Beach. Thursday volunteer sessions rotate among these locations, focusing on weeding, pruning, and general landscape upkeep around historic structures and overlooks. Tools, gloves, and training provided; no experience necessary.",
     "nextSteps": "Register for a Thursday session at parksconservancy.org/volunteer/community-volunteer-programs. Sessions run 10am–1pm.",
     "website": "https://www.parksconservancy.org/volunteer/community-volunteer-programs"
+  },
+  {
+    "id": "opp-045",
+    "title": "Roving Ranger — Pop-Up Trailhead Host",
+    "org": "One Tam / Tamalpais Lands Collaborative",
+    "tags": [
+      "trails",
+      "education"
+    ],
+    "commitment": "flexible",
+    "days": "either",
+    "city": "Mill Valley",
+    "state": "CA",
+    "zip": "94941",
+    "lat": 37.906,
+    "lng": -122.545,
+    "duration": "Varies/shift",
+    "description": "Meet hikers and visitors at Mt. Tamalpais trailheads, sharing trip-planning tips and stewardship messages as part of One Tam's mobile \"Roving Ranger\" outreach.",
+    "fullDescription": "One Tam's Roving Ranger program sets up pop-up information stations at rotating trailheads across the Tamalpais watershed to greet visitors before they head out. Volunteers answer questions about routes and conditions, share tips for a safe and low-impact visit, and help promote stewardship of the mountain's trails and habitat. Shifts are offered on both weekdays and weekends with a flexible schedule, making this a good fit for volunteers who enjoy people-facing outdoor work without a fixed weekly commitment.",
+    "nextSteps": "Email mstafford@onetam.org to ask about upcoming Roving Ranger trailhead shifts on Mt. Tamalpais.",
+    "website": "https://www.onetam.org/volunteer"
   }
 ]
