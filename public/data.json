@@ -496,50 +496,6 @@
     "website": "https://www.onetam.org/volunteer"
   },
   {
-    "id": "opp-033",
-    "title": "Coastal Cleanup Day \u2014 MLK Regional Shoreline",
-    "org": "Save the Bay",
-    "tags": [
-      "cleanup",
-      "water"
-    ],
-    "commitment": "one-time",
-    "days": "weekends",
-    "city": "Oakland",
-    "state": "CA",
-    "zip": "94605",
-    "lat": 37.7617,
-    "lng": -122.1558,
-    "duration": "3 hrs",
-    "description": "Join Save The Bay and thousands of volunteers statewide for California's Coastal Cleanup Day, removing trash from the shoreline at MLK Regional Shoreline in Oakland.",
-    "fullDescription": "Coastal Cleanup Day is California's largest volunteer event, bringing tens of thousands of people to shorelines statewide on a single September morning. Save The Bay hosts a cleanup at Martin Luther King Jr. Regional Shoreline in Oakland, where volunteers comb the marsh edges and trails for trash and plastic debris before it can wash into the Bay. Certified project leaders provide gloves, bags, and safety instruction; the event is family-friendly, though volunteers under 13 must be accompanied by a parent.",
-    "nextSteps": "Register at savesfbay.org/event/coastal-cleanup-day-at-mlk-regional-shoreline-oakland-1oapyaq/. Event runs 9am\u2013noon on Saturday, September 19, 2026.",
-    "website": "https://savesfbay.org/event/coastal-cleanup-day-at-mlk-regional-shoreline-oakland-1oapyaq/",
-    "eventDate": "September 19, 2026"
-  },
-  {
-    "id": "opp-034",
-    "title": "Habitat Restoration at Eden Landing",
-    "org": "Save the Bay",
-    "tags": [
-      "habitat",
-      "water"
-    ],
-    "commitment": "one-time",
-    "days": "weekends",
-    "city": "Hayward",
-    "state": "CA",
-    "zip": "94545",
-    "lat": 37.629,
-    "lng": -122.1176,
-    "duration": "3 hrs",
-    "description": "Help restore former industrial salt ponds into tidal marsh habitat at Eden Landing Ecological Reserve in Hayward, removing invasive mustard alongside Save The Bay's restoration team.",
-    "fullDescription": "Eden Landing Ecological Reserve is part of the South Bay Salt Pond Restoration Project, the largest tidal wetland restoration effort on the West Coast. Save The Bay volunteers help convert former commercial salt ponds back into functioning marsh by removing invasive mustard and other weeds and planting native marsh vegetation that will support shorebirds, fish, and endangered species like the salt marsh harvest mouse. Certified project leaders lead the workday and provide all tools, gloves, and safety training; no experience necessary.",
-    "nextSteps": "Register at savesfbay.org/event/habitat-restoration-at-eden-landing-hayward-1jxwyay/. Event runs 9am\u2013noon on Saturday, October 3, 2026.",
-    "website": "https://savesfbay.org/event/habitat-restoration-at-eden-landing-hayward-1jxwyay/",
-    "eventDate": "October 3, 2026"
-  },
-  {
     "id": "opp-035",
     "title": "Tennessee Valley Tuesday Stewards",
     "org": "Golden Gate National Parks Conservancy",
@@ -741,5 +697,47 @@
     "fullDescription": "This Golden Gate National Parks Conservancy program cares for the historic landscaping and cultural resources found across the park's western shoreline sites, including Lands End, Crissy Field, Baker Beach, and Ocean Beach. Thursday volunteer sessions rotate among these locations, focusing on weeding, pruning, and general landscape upkeep around historic structures and overlooks. Tools, gloves, and training provided; no experience necessary.",
     "nextSteps": "Register for a Thursday session at parksconservancy.org/volunteer/community-volunteer-programs. Sessions run 10am–1pm.",
     "website": "https://www.parksconservancy.org/volunteer/community-volunteer-programs"
+  },
+  {
+    "id": "opp-045",
+    "title": "Third Thursdays at Palo Alto Baylands Nursery",
+    "org": "Save the Bay",
+    "tags": [
+      "habitat",
+      "education"
+    ],
+    "commitment": "monthly",
+    "days": "weekdays",
+    "city": "Palo Alto",
+    "state": "CA",
+    "zip": "94303",
+    "lat": 37.4581,
+    "lng": -122.1019,
+    "duration": "3 hrs/month",
+    "description": "Help grow the native plants used in South Bay wetland restoration at a monthly nursery workday at the Palo Alto Baylands Preserve, working alongside Save The Bay's restoration team.",
+    "fullDescription": "Save The Bay's Palo Alto Baylands Nursery supplies native sedges, rushes, and other marsh plants for restoration sites across the South Bay, including the South Bay Salt Pond Restoration Project. Volunteers gather on the third Thursday of each month to pot up seedlings, clean and sort seed, water nursery stock, and keep the growing area organized. Save The Bay restoration staff lead every session and provide all tools and training; no experience necessary. The nursery sits near the Palo Alto Baylands, home to migratory shorebirds and the endangered Ridgway's rail.",
+    "nextSteps": "Register for an upcoming Third Thursday session at savesfbay.org/calendar. Sessions run 9am–noon.",
+    "website": "https://savesfbay.org/calendar/"
+  },
+  {
+    "id": "opp-046",
+    "title": "Native Planting at Mountain View A2W Pond",
+    "org": "Save the Bay",
+    "tags": [
+      "habitat",
+      "water"
+    ],
+    "commitment": "flexible",
+    "days": "weekends",
+    "city": "Mountain View",
+    "state": "CA",
+    "zip": "94043",
+    "lat": 37.4113,
+    "lng": -122.0782,
+    "duration": "3 hrs/event",
+    "description": "Plant native marsh and upland species at the South Bay Salt Pond Restoration Project's Adobe Creek to West Pond (A2W) site along Mountain View's Shoreline.",
+    "fullDescription": "Save The Bay periodically hosts native planting events at the A2W (Adobe Creek to West Pond) restoration site near Shoreline at Mountain View, part of the South Bay Salt Pond Restoration Project — the largest tidal wetland restoration effort on the West Coast. Volunteers install native seedlings grown in Save The Bay's nurseries, helping rebuild habitat for shorebirds and the endangered salt marsh harvest mouse. Certified restoration leaders provide all tools, gloves, and safety instruction; no experience necessary. Events run rain or shine; bring closed-toe shoes and weather-appropriate clothing.",
+    "nextSteps": "Check savesfbay.org/calendar for upcoming Mountain View A2W planting dates. Volunteers receive exact meeting coordinates 1–2 weeks before the event.",
+    "website": "https://savesfbay.org/calendar/"
   }
 ]
