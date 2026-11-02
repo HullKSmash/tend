@@ -496,50 +496,6 @@
     "website": "https://www.onetam.org/volunteer"
   },
   {
-    "id": "opp-033",
-    "title": "Coastal Cleanup Day \u2014 MLK Regional Shoreline",
-    "org": "Save the Bay",
-    "tags": [
-      "cleanup",
-      "water"
-    ],
-    "commitment": "one-time",
-    "days": "weekends",
-    "city": "Oakland",
-    "state": "CA",
-    "zip": "94605",
-    "lat": 37.7617,
-    "lng": -122.1558,
-    "duration": "3 hrs",
-    "description": "Join Save The Bay and thousands of volunteers statewide for California's Coastal Cleanup Day, removing trash from the shoreline at MLK Regional Shoreline in Oakland.",
-    "fullDescription": "Coastal Cleanup Day is California's largest volunteer event, bringing tens of thousands of people to shorelines statewide on a single September morning. Save The Bay hosts a cleanup at Martin Luther King Jr. Regional Shoreline in Oakland, where volunteers comb the marsh edges and trails for trash and plastic debris before it can wash into the Bay. Certified project leaders provide gloves, bags, and safety instruction; the event is family-friendly, though volunteers under 13 must be accompanied by a parent.",
-    "nextSteps": "Register at savesfbay.org/event/coastal-cleanup-day-at-mlk-regional-shoreline-oakland-1oapyaq/. Event runs 9am\u2013noon on Saturday, September 19, 2026.",
-    "website": "https://savesfbay.org/event/coastal-cleanup-day-at-mlk-regional-shoreline-oakland-1oapyaq/",
-    "eventDate": "September 19, 2026"
-  },
-  {
-    "id": "opp-034",
-    "title": "Habitat Restoration at Eden Landing",
-    "org": "Save the Bay",
-    "tags": [
-      "habitat",
-      "water"
-    ],
-    "commitment": "one-time",
-    "days": "weekends",
-    "city": "Hayward",
-    "state": "CA",
-    "zip": "94545",
-    "lat": 37.629,
-    "lng": -122.1176,
-    "duration": "3 hrs",
-    "description": "Help restore former industrial salt ponds into tidal marsh habitat at Eden Landing Ecological Reserve in Hayward, removing invasive mustard alongside Save The Bay's restoration team.",
-    "fullDescription": "Eden Landing Ecological Reserve is part of the South Bay Salt Pond Restoration Project, the largest tidal wetland restoration effort on the West Coast. Save The Bay volunteers help convert former commercial salt ponds back into functioning marsh by removing invasive mustard and other weeds and planting native marsh vegetation that will support shorebirds, fish, and endangered species like the salt marsh harvest mouse. Certified project leaders lead the workday and provide all tools, gloves, and safety training; no experience necessary.",
-    "nextSteps": "Register at savesfbay.org/event/habitat-restoration-at-eden-landing-hayward-1jxwyay/. Event runs 9am\u2013noon on Saturday, October 3, 2026.",
-    "website": "https://savesfbay.org/event/habitat-restoration-at-eden-landing-hayward-1jxwyay/",
-    "eventDate": "October 3, 2026"
-  },
-  {
     "id": "opp-035",
     "title": "Tennessee Valley Tuesday Stewards",
     "org": "Golden Gate National Parks Conservancy",
@@ -741,5 +697,110 @@
     "fullDescription": "This Golden Gate National Parks Conservancy program cares for the historic landscaping and cultural resources found across the park's western shoreline sites, including Lands End, Crissy Field, Baker Beach, and Ocean Beach. Thursday volunteer sessions rotate among these locations, focusing on weeding, pruning, and general landscape upkeep around historic structures and overlooks. Tools, gloves, and training provided; no experience necessary.",
     "nextSteps": "Register for a Thursday session at parksconservancy.org/volunteer/community-volunteer-programs. Sessions run 10am–1pm.",
     "website": "https://www.parksconservancy.org/volunteer/community-volunteer-programs"
+  },
+  {
+    "id": "opp-045",
+    "title": "Presidio Tunnel Tops Litter Patrol",
+    "org": "Golden Gate National Parks Conservancy",
+    "tags": [
+      "cleanup",
+      "habitat"
+    ],
+    "commitment": "monthly",
+    "days": "weekends",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip": "94129",
+    "lat": 37.799,
+    "lng": -122.4662,
+    "duration": "2 hrs/month",
+    "description": "Help keep Presidio Tunnel Tops clean with a monthly litter patrol, picking up trash across the park's lawns, trails, and overlooks while learning about the park's zero-waste goals.",
+    "fullDescription": "Golden Gate National Parks Conservancy runs a seasonal litter patrol at Presidio Tunnel Tops each fall and winter (October through December), complementing the park's spring/summer gardening program. Volunteers walk the park's lawns, overlooks, and trail edges once a month on a Saturday, collecting trash and recyclables and learning about the park's zero-waste initiatives along the way. Tools and bags are provided; no experience necessary.",
+    "nextSteps": "Register for an upcoming Saturday session at parksconservancy.org/volunteer/community-volunteer-programs. The litter patrol runs October through December, one Saturday per month, 10am–noon.",
+    "website": "https://www.parksconservancy.org/volunteer/community-volunteer-programs"
+  },
+  {
+    "id": "opp-046",
+    "title": "First Fridays @ MLK Nursery",
+    "org": "Save the Bay",
+    "tags": [
+      "habitat",
+      "education"
+    ],
+    "commitment": "monthly",
+    "days": "weekdays",
+    "city": "Oakland",
+    "state": "CA",
+    "zip": "94605",
+    "lat": 37.7617,
+    "lng": -122.1558,
+    "duration": "3 hrs/month",
+    "description": "Help grow native plants for the South Bay Salt Pond Restoration Project at the MLK Regional Shoreline nursery, part of Save The Bay's monthly First Fridays volunteer series.",
+    "fullDescription": "Save The Bay operates native plant nurseries that supply seedlings for its marsh and shoreline restoration sites around the South Bay. The First Fridays series meets on the first Friday of each month at the nursery near Martin Luther King Jr. Regional Shoreline in Oakland, where volunteers sow seed, transplant seedlings, and maintain the growing beds under the guidance of a certified project leader. Tools, gloves, and instruction are provided; no experience necessary.",
+    "nextSteps": "Register at savesfbay.org/calendar for the next First Friday nursery session. Sessions run 9am–noon on the first Friday of the month.",
+    "website": "https://savesfbay.org/calendar/"
+  },
+  {
+    "id": "opp-047",
+    "title": "Third Thursdays at PAB Nursery",
+    "org": "Save the Bay",
+    "tags": [
+      "habitat",
+      "education"
+    ],
+    "commitment": "monthly",
+    "days": "weekdays",
+    "city": "Palo Alto",
+    "state": "CA",
+    "zip": "94303",
+    "lat": 37.448,
+    "lng": -122.1064,
+    "duration": "3 hrs/month",
+    "description": "Work in Save The Bay's native plant nursery near the Palo Alto Baylands, growing seedlings for South Bay wetland restoration sites on the third Thursday of every month.",
+    "fullDescription": "This recurring nursery session is part of Save The Bay's South Bay Salt Pond Restoration Project, which supplies native plants grown from locally collected seed to marsh restoration sites across the South Bay. Volunteers meet on the third Thursday of each month near the Palo Alto Baylands to sow seed, transplant seedlings, and tend the nursery beds alongside a certified project leader. Tools and gloves provided; no experience necessary.",
+    "nextSteps": "Register at savesfbay.org/calendar for the next Third Thursdays session. Sessions run 9am–noon on the third Thursday of the month.",
+    "website": "https://savesfbay.org/calendar/"
+  },
+  {
+    "id": "opp-048",
+    "title": "South Bay Salt Pond Native Planting",
+    "org": "Save the Bay",
+    "tags": [
+      "habitat",
+      "water"
+    ],
+    "commitment": "monthly",
+    "days": "weekends",
+    "city": "Mountain View",
+    "state": "CA",
+    "zip": "94043",
+    "lat": 37.4302,
+    "lng": -122.0824,
+    "duration": "3 hrs/month",
+    "description": "Plant native vegetation at former salt pond restoration sites in the South Bay, including the Mountain View A2W pond levee, as part of Save The Bay's ongoing wetland restoration work.",
+    "fullDescription": "As ponds in the South Bay Salt Pond Restoration Project transition from industrial salt production back to tidal marsh, Save The Bay runs regular weekend planting events to establish native marsh vegetation along the new levees and transition zones. Events rotate between sites including the Mountain View A2W pond transition zone levee and the Palo Alto Baylands, typically on Saturday mornings roughly every other week. A certified project leader provides tools, gloves, and safety instruction; volunteers under 18 need a parent or guardian waiver.",
+    "nextSteps": "Check savesfbay.org/calendar for the next scheduled planting date and site. Events run 10am–1pm on Saturdays.",
+    "website": "https://savesfbay.org/calendar/"
+  },
+  {
+    "id": "opp-049",
+    "title": "Lake Merritt Bird Docent",
+    "org": "Golden Gate Bird Alliance",
+    "tags": [
+      "wildlife",
+      "education"
+    ],
+    "commitment": "flexible",
+    "days": "either",
+    "city": "Oakland",
+    "state": "CA",
+    "zip": "94610",
+    "lat": 37.8046,
+    "lng": -122.2563,
+    "duration": "Seasonal, Nov–Feb",
+    "description": "Help visitors spot and appreciate birds at Lake Merritt as a Golden Gate Bird Alliance docent during the fall and winter birding season.",
+    "fullDescription": "Golden Gate Bird Alliance runs a seasonal docent program at Lake Merritt in Oakland (and at Dotson Family Marsh in Richmond) each year from November through February, when waterfowl and shorebird numbers peak. Docents are stationed along the lake's shoreline to help passersby spot and identify birds and answer questions about the lake's wildlife. New docents attend a training in the fall before the season begins.",
+    "nextSteps": "Email volunteer@goldengatebirds.org to join the docent program. Training is held each fall ahead of the November–February docenting season.",
+    "website": "https://goldengatebirdalliance.org/volunteer/"
   }
 ]
